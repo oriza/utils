@@ -26,7 +26,8 @@ defmodule Utils.MixProject do
       {:poison, "~> 3.1"},
       {:elixir_feed_parser, "~> 0.0.1"},
       {:jason, "~> 1.1"},
-      {:credo, "~> 0.10.0", only: [:dev, :test], runtime: false}
+      {:credo, "~> 0.10.0", only: [:dev, :test], runtime: false},
+      {:hackney, github: "benoitc/hackney", tag: "1.3.0", override: true}
     ]
   end
 end
